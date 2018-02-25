@@ -1,0 +1,23 @@
+We can use pyaudio to record voice in Raspberry Pi.
+
+1. Install pyaudio
+
+Run following codes:
+
+$ sudo apt-get install python-pyaudio
+$ sudo apt-get install git
+$ git clone http://people.csail.mit.edu/hubert/git/pyaudio.git
+$ sudo apt-get install libportaudio0 libportaudio2 libportaudiocpp0 portaudio19-dev
+$ sudo apt-get python-dev
+
+2. Then a new folder named "pyaudio" will be generated.
+
+Run these codes:
+
+$ cd pyaudio
+$ sudo python setup.py instal
+
+Pyaudio will be installed successfully if there is no mistake.
+(other install way -- http://people.csail.mit.edu/hubert/pyaudio/ )
+
+3. Run the record.py to record a voice.
